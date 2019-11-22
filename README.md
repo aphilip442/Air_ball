@@ -13,18 +13,22 @@ Can be used in behavioral rigs with mice.
 * 2x Arduino Micro
 * 1x Arduino Due
 
+# Power
+
+All boards take 12V on Vin and share the same GND.
+
 # How to connect sensors to Micros
 
 Pinout Sensor - Micro:
 -------
-* MI = MISO
-* MO = MOSI
-* SS = Slave Select / Chip Select
-* SC = SPI Clock
-* MT = Motion (active low interrupt line)
-* RS = Reset
-* GD = Ground
-* VI = Voltage in up to +5.5V
+* RS --- (NONE)
+* GD --- GND
+* MT --- Pin 7 (PE6, INT6) -> movement interrupt
+* SS --- Pin 10 (PB6)
+* SC --- SCK (PB1)
+* MO --- MOSI (PB2)
+* MI --- MISO (PB3)
+* VI --- 5V
 
 https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/
 
@@ -36,7 +40,6 @@ WARNING: the Due works on 3.3V and the Micros on 5V.
 
 Pinout Due - Micro
 -------
-* 5V  = Power
-* GND = GND
 * TX  = RX
 * RX  = voltage divider from TX (5V(micro)->3.3V(due), use 2k and 1k resistors)
+
