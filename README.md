@@ -4,6 +4,8 @@ Describes how to make a 3D printed air ball holder with mouse sensors to capture
 
 Can be used in behavioral rigs with mice.
 
+[![Air_ball_gif](airball.gif)]
+
 # Parts
 
 * 2x Motion sensor PMW3360: https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/
