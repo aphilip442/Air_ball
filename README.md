@@ -4,7 +4,7 @@ Describes how to make a 3D printed air ball holder with mouse sensors to capture
 
 Can be used in behavioral rigs with mice.
 
-![airball](https://github.com/aphilip442/Air_ball/blob/master/airball.gif)
+![airball](airball.gif)
 
 # Parts
 
