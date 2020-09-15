@@ -62,3 +62,10 @@ Pinout Due - Micro
 -------
 * RX  = voltage divider from TX (5V(micro)->3.3V(due), use 2k and 1k resistors)
 
+# Micro's output
+
+XY motion from the sensor, sampled at around 1kHz
+
+# Due's output
+
+Yaw - pitch - roll values (you can add eventual other outputs like the total distance)
